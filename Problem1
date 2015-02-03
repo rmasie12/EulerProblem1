@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main(int argc, const char * argv[]) {
+    int sum = 0;
+    for (int i=0; i<1000; i++) {
+        if ((i%3 == 0) || (i%5 == 0)) {
+            sum = sum + i;
+        }
+        std::cout<<"Sum of 3 or 5 below 1000: "<<sum;
+    }
+    
+    int sumN = 0;
+    std::cout << "Please enter a number: ";
+    int n = 0;
+    std::cin.get() << n;
+    for (int i = 0; i <= n ; i++) {
+        sumN = n;
+    }
+    std::cout << "0(n) sum = " << sumN; 
+    
+    
+    
+    
+    
+    
+}
